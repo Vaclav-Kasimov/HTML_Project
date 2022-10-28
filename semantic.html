@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Конспект.Семантика</title>
+</head>
+<body>
+	<!-- Button to return to homepage. It's stantart one so I decided to show it on all the pages of my website. -->
+	<header><a href="index.html">
+		<img src="/resources/images/ToHomepage.png" width="32" height="32">
+	</a></header>
+<body>
+	<h1>Заголовки и семантические теги</h1>
+
+	<p>Semantic (семантика) related to meaning in language or logic (имеет какое то определенное значение в языке). Semantic HTML element is an element that implies (придаёт) some meaning to the content. То есть это элемент, который рассказывает что-то о контенте (важность, описание и тд)</p>
+
+	<ol>
+		<li id="#hs">
+			<p>
+				<h3>Заголовки</h3>
+				<div>Первый тип семантических тегов который мы рассмотрим это заголовки.</div>
+				<div>&lt;h1&gt; … &lt;h6&gt; -- теги для заголовков. Важность заголовка определяется по убыванию, то есть &lt;h1&gt; -- самый важный заголовок, а &lt;h6&gt; -- наименее важный. Также по умолчанию у них разный размер шрифта </div>
+				<div><img src="resources/images/example2.png" width="624" height="195"></div>
+				<div>Для стилизования эти размеры не используются. Все стили, размеры шрифта и ТД определяются CSSом. Заголовки разной степени важности важны для структуризации документа, не более. Почему просто не использовать &lt;div&gt;?? Так мы потеряем суть, не будет понятно,где заголовки. Во-вторых, для SEO важно, чтобы в h1 была самая нужная информация, слова описывающие контент.</div>
+			</p>
+		</li>
+
+		<li id="header">
+			<h3>Тег header</h3>
+			<p>
+				&lt;header&gt; содержит как правило информацию о странице, может быть логотип компании, список тегов (не HTML-тегов, а просто тегов, может быть навигацию и так далее.
+			</p>
+		</li>
+		<li id="nav">
+			<h3>Тег nav</h3>
+			<p>
+				Содержит контент, который используется для навигации внутри нашего веб-сайта.
+			</p>
+		</li>
+		<li id="section">
+			<h3>Тег section</h3>
+			<p>
+				Тут тоже может содержаться какой-то контент, который разумно было бы разбить на секции. Например &lt;article&gt; <a href="https://ru.w3docs.com/uchebnik-html/html-teg-section.html" target="_blank">https://ru.w3docs.com/uchebnik-html/html-teg-section.html</a>
+			</p>
+		</li>
+		<li id="article">
+			<h3>Тег article</h3>
+			<p>
+				<a href="https://ru.w3docs.com/uchebnik-html/html-teg-article.html" target="_blank">https://ru.w3docs.com/uchebnik-html/html-teg-article.html</a>
+			</p>
+		</li>
+		<li id="aside">
+			<h3>Тег aside</h3>
+			<p>
+				Содержит информацию, которая имеет непрямое отношение к странице, не такое прямое, как основной контент.
+			</p>
+		</li>
+		<li id="footer">
+			<h3>Тег footer</h3>
+			<p>
+				Нижний колонтитул.
+			</p>
+		</li>
+	</ol>
+	<p>
+		Все вышеперечисленные теги являются блочными элементами. Вообще можно было бы тупо использовать везде div и не париться, НО если взглянуть на код , то куда проще читать код с осмысленными тегами.
+		<div>Пример – Git:</div>
+		HTML_tgsTraing1 – index.html
+		<div>Особой функциональности эти теги не несут, функционально это те же divы</div>
+		<div><img src="resources/images/example3.png"></div>
+		<div>В соответствии со стандартом HTML5 использование семантических тегов ОБЯЗАТЕЛЬНО.</div>
+	</p>
+</body>
+</html>
