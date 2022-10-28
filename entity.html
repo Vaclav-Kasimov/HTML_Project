@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Конспект.Списки</title>
+</head>
+<body>
+	<!-- Button to return to homepage. It's stantart one so I decided to show it on all the pages of my website. -->
+	<header><a href="index.html">
+		<img src="/resources/images/ToHomepage.png" width="32" height="32">
+	</a></header>
+
+	<h1>HTML character entity references (Ссылки на объекты символов HTML)</h1>
+	<p>
+		<div>Это обозначения для символов, зарезервированных языком (&lt;, &gt;, &amp; и тд) которые мы хотим использовать в контенте.</div>
+		<div>
+			<table>
+				<tr><th>Символ</th><th>Entity reference </th></tr>
+				<tr><td>&lt;</td><td>&amp;lt;</td></tr>
+				<tr><td>&gt;</td><td>&amp;gt;</td></tr>
+				<tr><td>&amp;</td><td>&amp;amp;</td></tr>
+				<tr><td>&copy;</td><td>&amp;copy;</td></tr>
+				<tr><td>Неразрываемый пробел <div>(след. Слово не перенесется в следующую строку, слова как бы связаны).</div><div> Ставится ВМЕСТО пробела обычного</div></td><td>&amp;nbsp;</td></tr>
+				<tr><td>&quot;(Кавычки)</td><td>&amp;quot;</td></tr>
+			</table>
+			<div>Наращивать с помощю неразрываемого пробела пробелы НЕПРАВИЛЬНО. Надо использовать вокруг слова тег &lt;span&gt;, у которого нарастить margin (поле) с нужной стороны.</div>
+		</div>
+	</p>
+</body>
+</html>

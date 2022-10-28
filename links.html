@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Конспект.Ссылки</title>
+</head>
+<body>
+	<!-- Button to return to homepage. It's stantart one so I decided to show it on all the pages of my website. -->
+	<header><a href="index.html">
+		<img src="/resources/images/ToHomepage.png" width="32" height="32">
+	</a></header>
+	<h1>Гиперссылки и ссылки</h1>
+	<h3 id="internal">Internal links (внутренние ссылки)</h3>
+	<p>
+		<div>Ссылки создаются с помощью спецификации тега &lt;a&gt; атрибутом href (hypertext reference)</div>
+		<div>Пример &lt;a href=&quot;lists.html&quot; title=&quot;Списки&quot;&gt; Тут я практиковал списки. :) &lt;/a&gt;</div>
+		<div>Значение href’а может быть либо relative (относительным), либо абсолютным URL. В этом примере использован относительный URL (тк мы ссылаемся на страницу на нашем же сайте), так как это внутренняя ссылка. Конечно, мы можем указать и абсолютный URL, если он ведет на страницу на этом же сайте.</div>
+		<div>Title – атрибут, нужный чтобы при наведении курсора появилось краткое описание того, что лежит за гиперссылкой.</div>
+		<div>Контент внутри тега &lt;a&gt;&lt;/a&gt; представляет собой контент, по нажатию на который мы переходим по гиперссылке.</div>
+	</p>
+
+	<h3 id="external">External links (внешние ссылки)</h3>
+	<p>
+		<div>По сути все то же самое, но в href’e находится ссылка на внешний ресурс.</div>
+		<div>Однако есть фича, которая используется для внешних ссылок, и это атрибут target. Можно сделать например target = &quot;_blank&quot; – что заставит браузер открыть ссылку в новой вкладке. </div><div>Пример:</div>
+		<div>&lt;a href=&quot;https://github.com/Vaclav-Kasimov/&quot; target=&quot;_blank&quot; title=&quot;github&quot;&gt;</div>
+	</p>
+	<h3 id="fragment">Fragment Identifier (идентификатор фрагмента)</h3>
+	<p>
+		<div>Это гиперссылка на секцию нашей страницы. Может в виде ссылки принимать #+название атрибута id или например name какого-то участка нашей страницы. Пример в <a href="https://github.com/Vaclav-Kasimov/HTML_tgsTraing1/blob/main/links.html" target="_blank">https://github.com/Vaclav-Kasimov/HTML_tgsTraing1/blob/main/links.html</a></div>
+		<div>Сейчас Fragment Identifier крайне востребован, так как используется для навигации внутри SPA(Single page application – приложение одной страницы)</div>
+	</p>
+	
+</body>
+</html>
