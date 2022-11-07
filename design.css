@@ -1,0 +1,22 @@
+body {
+	font-size: 90%;
+	font-family: 'Nunito';
+	color: #262626;
+}
+
+li.menu:hover {
+	font-size: 1.05em;
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1.5em;
+	color: #000000;
+	text-align: center;
+}
+
+a.menu:link, a.menu:visited {
+	text-decoration: none;
+	color: #262626;
+
+}
